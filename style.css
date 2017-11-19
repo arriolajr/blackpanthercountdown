@@ -21,8 +21,9 @@ span {
   height: 35rem;
   background-image: url("images/bpcover.jpg");
 /*	background-image: url({{ url_for('static/images'), filename = 'bpcover.jpg' }});*/
-  background-size: 60rem;
+  background-size: cover;
   background-repeat: no-repeat;
+  background
   display: flex;
   justify-content: center;
   align-items: center;
