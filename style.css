@@ -524,3 +524,22 @@ height: 15em;
     display: table;
     clear: both;
 }
+
+/* **************************  Footer  ************************/
+
+.footer {
+   /*position: fixed;*/
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   height: 4rem;
+}
+
+.footer img{
+   width: 3rem;
+   border-radius: 100px;
+   padding: 2rem 2rem 2rem 2rem;
+}
+
