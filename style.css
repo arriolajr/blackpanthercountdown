@@ -544,6 +544,13 @@ height: 15em;
 }
 
 
+
+
+
+/**************************************   Mobile   **********************************************/
+
+
+
 @media (max-width: 1070px) {
     .sticky img{
           
@@ -553,9 +560,109 @@ height: 15em;
 
 
 @media (max-width: 450px) {
-    .sticky {
-        position:static;
+     body{
+     /* background-image: url(images/Black_Panther_Fire.0.jpg);*/
+      background-position: center;
+      background-repeat: no-repeat;
+     }
+
+  .sticky{
+  position: -webkit-static;
+  position: static;
+  top: 0;
+  padding:  0.3125rem;
+  /*background-color: #2C3539;*/
+  background-color: #461f51;
+  border: 0.125rem solid #FFDF00;
+  z-index: 4;
+  font-size: 1.2em;
+  color: powderblue;
+}
+
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: .7em;
+}
+
+#clockdiv > div{
+    padding: .6em;
+    border-radius: .18em;
+    background: black;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 1em;
+    border-radius: .18em;
+    background: #00816A;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 0.3em;
+    font-size: .8em;
+}
+
+#smallflag{
+  float: right;
+  height: 7rem;
+}
+
+    .banner{
+  height: 18rem;
+  background-image: url("images/Black_Panther_Fire.0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
     }
+
+    .mobileVersion{
+      display: none;
+    }
+
+    .title{
+      display: none;
+    }
+
+
+    .hero{
+      display: none;
+    }
+
+    #bptransform {
+       display: none;
+
+
+    }
+
+
+.footer {
+   /*position: fixed;*/
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   height: 4rem;
+}
+
+.footer img{
+   width: 1.5rem;
+   border-radius: 100px;
+   padding: 1rem 1rem 1rem 1rem;
+}
+
+
+
 }
 
 
